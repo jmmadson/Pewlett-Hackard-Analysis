@@ -34,7 +34,7 @@ The additional table output from that query is here: [Mentorship By Department](
 Upon further analysis of eligibility by title I noticed there is a lack of eligible employees in management positions. Fortunately, many outside Management programs and certificates are available to train senior employees looking to advance their careers to the next level. You can see this by looking at the Retirement Eligible Employees by Title Table as compared to the Mentorship Eligibility by Title Table below. 
 <br>
 
-![Query: Mentorship Eligibility by Title](https://github.com/jmmadson/Pewlett-Hackard-Analysis/blob/main/Resources/Mentorship_By_Title.png) ![Query: Total Retirees by Title](https://github.com/jmmadson/Pewlett-Hackard-Analysis/blob/main/Resources/Mentorship_Eligible_by_dept.png)
+![Query: Mentorship Eligibility by Title](https://github.com/jmmadson/Pewlett-Hackard-Analysis/blob/main/Resources/Mentorship_By_Title.png) ![Query: Total Retirees by Title](https://github.com/jmmadson/Pewlett-Hackard-Analysis/blob/main/Resources/retirement_by_title.png)
 
 This is the additional query used to generate those tables for this report. 
 <br>
