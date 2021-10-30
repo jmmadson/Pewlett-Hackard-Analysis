@@ -38,7 +38,7 @@ SELECT DISTINCT ON (e.emp_no) e.emp_no,
 	de.from_date,
 	de.to_date,
 	t.title	
--- Into membership_eligibility	
+Into membership_eligibility	
 FROM employees as e
 	Inner Join dept_employee as de
 	ON (e.emp_no = de.emp_no)
@@ -48,3 +48,37 @@ FROM employees as e
 	
 WHERE de.to_date = ('9999-01-01') AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY emp_no;  
+
+-- Deliverable 3 Additional Analysis Queries
+
+-- Mentorship Eligible Retiree's by Title
+Select Count(title), title as titles 
+FROM membership_eligibility
+Group By title
+Order By(count) DESC;
+
+-- Create Department Mentorship Eligibility table
+SELECT DISTINCT ON (me.emp_no) me.emp_no,
+	me.first_name,
+	me.last_name,
+	de.dept_no,
+	d.dept_name
+Into dept_membership_eligibility	
+FROM membership_eligibility as me
+	Inner Join dept_employee as de
+	ON (me.emp_no = de.emp_no)
+
+	Inner Join departments as d
+	on (de.dept_no = d.dept_no)
+ORDER BY emp_no;  
+
+
+-- Mentorship Eligible Retiree's by Department
+Select Count(dept_name), dept_name as Department 
+FROM dept_membership_eligibility
+Group By dept_name
+Order By(count) DESC;
+
+
+-- Departments 
+Select * from departments;
