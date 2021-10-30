@@ -12,10 +12,10 @@ From our data manipulation and analysis we've learned the following:
 1. There are 90,389 employees at Pewlett Hackard that are coming up on their retirement. 
 2. Each department at Pewlett Hackard has eligible employees who could participate in the mentorship program.
 <br>
-![Query: Mentorship Eligibility by Department](https://github.com/jmmadson/Pewlett-Hackard-Analysis/blob/main/Resources/Mentorship_Eligible_by_dept.png)
+![Query Mentorship Eligibility by Department](https://github.com/jmmadson/Pewlett-Hackard-Analysis/blob/main/Resources/Mentorship_Eligible_by_dept.png?raw=true)
 <br>
 3. Senior Engineers and Senior Staff make up 64% of the retirement elibile employees<br>
-![Retirement Titles](https://github.com/jmmadson/Pewlett-Hackard-Analysis/blob/main/Resources/retirement_by_title.png)
+![Retirement Titles](https://github.com/jmmadson/Pewlett-Hackard-Analysis/blob/main/Resources/retirement_by_title.png?raw=true)
 <br>
 4. While there are 1,549 employees who would qualify for the mentorship program, none of those eligible employees are managers. 
 
